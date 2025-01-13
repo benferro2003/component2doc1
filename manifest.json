@@ -172,6 +172,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/BOOSEProgram.AppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEProgram.AppStoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/BOOSEProgram.AppTriangle.yml",
       "output": {
         ".html": {
@@ -272,6 +282,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/UnitTests.IfTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.IfTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/UnitTests.IntTest.yml",
       "output": {
         ".html": {
@@ -286,6 +306,16 @@
       "output": {
         ".html": {
           "relative_path": "api/UnitTests.RealTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/UnitTests.WhileTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.WhileTest.html"
         }
       },
       "version": ""

@@ -433,25 +433,6 @@ references:
   commentId: T:BOOSEProgram.AppBoolean
   fullName: BOOSEProgram.AppBoolean
   nameWithType: AppBoolean
-- uid: BOOSEProgram.AppBoolean.#ctor
-  name: AppBoolean()
-  href: api/BOOSEProgram.AppBoolean.html#BOOSEProgram_AppBoolean__ctor
-  commentId: M:BOOSEProgram.AppBoolean.#ctor
-  name.vb: New()
-  fullName: BOOSEProgram.AppBoolean.AppBoolean()
-  fullName.vb: BOOSEProgram.AppBoolean.New()
-  nameWithType: AppBoolean.AppBoolean()
-  nameWithType.vb: AppBoolean.New()
-- uid: BOOSEProgram.AppBoolean.#ctor*
-  name: AppBoolean
-  href: api/BOOSEProgram.AppBoolean.html#BOOSEProgram_AppBoolean__ctor_
-  commentId: Overload:BOOSEProgram.AppBoolean.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: BOOSEProgram.AppBoolean.AppBoolean
-  fullName.vb: BOOSEProgram.AppBoolean.New
-  nameWithType: AppBoolean.AppBoolean
-  nameWithType.vb: AppBoolean.New
 - uid: BOOSEProgram.AppBoolean.Restrictions
   name: Restrictions()
   href: api/BOOSEProgram.AppBoolean.html#BOOSEProgram_AppBoolean_Restrictions
@@ -691,25 +672,6 @@ references:
   commentId: T:BOOSEProgram.AppEnd
   fullName: BOOSEProgram.AppEnd
   nameWithType: AppEnd
-- uid: BOOSEProgram.AppEnd.#ctor
-  name: AppEnd()
-  href: api/BOOSEProgram.AppEnd.html#BOOSEProgram_AppEnd__ctor
-  commentId: M:BOOSEProgram.AppEnd.#ctor
-  name.vb: New()
-  fullName: BOOSEProgram.AppEnd.AppEnd()
-  fullName.vb: BOOSEProgram.AppEnd.New()
-  nameWithType: AppEnd.AppEnd()
-  nameWithType.vb: AppEnd.New()
-- uid: BOOSEProgram.AppEnd.#ctor*
-  name: AppEnd
-  href: api/BOOSEProgram.AppEnd.html#BOOSEProgram_AppEnd__ctor_
-  commentId: Overload:BOOSEProgram.AppEnd.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: BOOSEProgram.AppEnd.AppEnd
-  fullName.vb: BOOSEProgram.AppEnd.New
-  nameWithType: AppEnd.AppEnd
-  nameWithType.vb: AppEnd.New
 - uid: BOOSEProgram.AppEnd.Compile
   name: Compile()
   href: api/BOOSEProgram.AppEnd.html#BOOSEProgram_AppEnd_Compile
@@ -723,6 +685,25 @@ references:
   isSpec: "True"
   fullName: BOOSEProgram.AppEnd.Compile
   nameWithType: AppEnd.Compile
+- uid: BOOSEProgram.AppEnd.CorrespondingCommand
+  name: CorrespondingCommand
+  href: api/BOOSEProgram.AppEnd.html#BOOSEProgram_AppEnd_CorrespondingCommand
+  commentId: P:BOOSEProgram.AppEnd.CorrespondingCommand
+  fullName: BOOSEProgram.AppEnd.CorrespondingCommand
+  nameWithType: AppEnd.CorrespondingCommand
+- uid: BOOSEProgram.AppEnd.CorrespondingCommand*
+  name: CorrespondingCommand
+  href: api/BOOSEProgram.AppEnd.html#BOOSEProgram_AppEnd_CorrespondingCommand_
+  commentId: Overload:BOOSEProgram.AppEnd.CorrespondingCommand
+  isSpec: "True"
+  fullName: BOOSEProgram.AppEnd.CorrespondingCommand
+  nameWithType: AppEnd.CorrespondingCommand
+- uid: BOOSEProgram.AppEnd.EndLineNumber
+  name: EndLineNumber
+  href: api/BOOSEProgram.AppEnd.html#BOOSEProgram_AppEnd_EndLineNumber
+  commentId: F:BOOSEProgram.AppEnd.EndLineNumber
+  fullName: BOOSEProgram.AppEnd.EndLineNumber
+  nameWithType: AppEnd.EndLineNumber
 - uid: BOOSEProgram.AppEnd.Execute
   name: Execute()
   href: api/BOOSEProgram.AppEnd.html#BOOSEProgram_AppEnd_Execute
@@ -736,6 +717,12 @@ references:
   isSpec: "True"
   fullName: BOOSEProgram.AppEnd.Execute
   nameWithType: AppEnd.Execute
+- uid: BOOSEProgram.AppEnd.LineNumber
+  name: LineNumber
+  href: api/BOOSEProgram.AppEnd.html#BOOSEProgram_AppEnd_LineNumber
+  commentId: F:BOOSEProgram.AppEnd.LineNumber
+  fullName: BOOSEProgram.AppEnd.LineNumber
+  nameWithType: AppEnd.LineNumber
 - uid: BOOSEProgram.AppFor
   name: AppFor
   href: api/BOOSEProgram.AppFor.html
@@ -838,19 +825,6 @@ references:
   isSpec: "True"
   fullName: BOOSEProgram.AppIf.Execute
   nameWithType: AppIf.Execute
-- uid: BOOSEProgram.AppIf.Restrictions
-  name: Restrictions()
-  href: api/BOOSEProgram.AppIf.html#BOOSEProgram_AppIf_Restrictions
-  commentId: M:BOOSEProgram.AppIf.Restrictions
-  fullName: BOOSEProgram.AppIf.Restrictions()
-  nameWithType: AppIf.Restrictions()
-- uid: BOOSEProgram.AppIf.Restrictions*
-  name: Restrictions
-  href: api/BOOSEProgram.AppIf.html#BOOSEProgram_AppIf_Restrictions_
-  commentId: Overload:BOOSEProgram.AppIf.Restrictions
-  isSpec: "True"
-  fullName: BOOSEProgram.AppIf.Restrictions
-  nameWithType: AppIf.Restrictions
 - uid: BOOSEProgram.AppInt
   name: AppInt
   href: api/BOOSEProgram.AppInt.html
@@ -1129,6 +1103,44 @@ references:
   isSpec: "True"
   fullName: BOOSEProgram.AppReal.Restrictions
   nameWithType: AppReal.Restrictions
+- uid: BOOSEProgram.AppStoredProgram
+  name: AppStoredProgram
+  href: api/BOOSEProgram.AppStoredProgram.html
+  commentId: T:BOOSEProgram.AppStoredProgram
+  fullName: BOOSEProgram.AppStoredProgram
+  nameWithType: AppStoredProgram
+- uid: BOOSEProgram.AppStoredProgram.#ctor(BOOSE.ICanvas)
+  name: AppStoredProgram(ICanvas)
+  href: api/BOOSEProgram.AppStoredProgram.html#BOOSEProgram_AppStoredProgram__ctor_BOOSE_ICanvas_
+  commentId: M:BOOSEProgram.AppStoredProgram.#ctor(BOOSE.ICanvas)
+  name.vb: New(ICanvas)
+  fullName: BOOSEProgram.AppStoredProgram.AppStoredProgram(BOOSE.ICanvas)
+  fullName.vb: BOOSEProgram.AppStoredProgram.New(BOOSE.ICanvas)
+  nameWithType: AppStoredProgram.AppStoredProgram(ICanvas)
+  nameWithType.vb: AppStoredProgram.New(ICanvas)
+- uid: BOOSEProgram.AppStoredProgram.#ctor*
+  name: AppStoredProgram
+  href: api/BOOSEProgram.AppStoredProgram.html#BOOSEProgram_AppStoredProgram__ctor_
+  commentId: Overload:BOOSEProgram.AppStoredProgram.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEProgram.AppStoredProgram.AppStoredProgram
+  fullName.vb: BOOSEProgram.AppStoredProgram.New
+  nameWithType: AppStoredProgram.AppStoredProgram
+  nameWithType.vb: AppStoredProgram.New
+- uid: BOOSEProgram.AppStoredProgram.Run
+  name: Run()
+  href: api/BOOSEProgram.AppStoredProgram.html#BOOSEProgram_AppStoredProgram_Run
+  commentId: M:BOOSEProgram.AppStoredProgram.Run
+  fullName: BOOSEProgram.AppStoredProgram.Run()
+  nameWithType: AppStoredProgram.Run()
+- uid: BOOSEProgram.AppStoredProgram.Run*
+  name: Run
+  href: api/BOOSEProgram.AppStoredProgram.html#BOOSEProgram_AppStoredProgram_Run_
+  commentId: Overload:BOOSEProgram.AppStoredProgram.Run
+  isSpec: "True"
+  fullName: BOOSEProgram.AppStoredProgram.Run
+  nameWithType: AppStoredProgram.Run
 - uid: BOOSEProgram.AppTriangle
   name: AppTriangle
   href: api/BOOSEProgram.AppTriangle.html
@@ -1182,54 +1194,25 @@ references:
   commentId: T:BOOSEProgram.AppWhile
   fullName: BOOSEProgram.AppWhile
   nameWithType: AppWhile
-- uid: BOOSEProgram.AppWhile.CheckParameters(System.String[])
-  name: CheckParameters(string[])
-  href: api/BOOSEProgram.AppWhile.html#BOOSEProgram_AppWhile_CheckParameters_System_String___
-  commentId: M:BOOSEProgram.AppWhile.CheckParameters(System.String[])
-  name.vb: CheckParameters(String())
-  fullName: BOOSEProgram.AppWhile.CheckParameters(string[])
-  fullName.vb: BOOSEProgram.AppWhile.CheckParameters(String())
-  nameWithType: AppWhile.CheckParameters(string[])
-  nameWithType.vb: AppWhile.CheckParameters(String())
-- uid: BOOSEProgram.AppWhile.CheckParameters*
-  name: CheckParameters
-  href: api/BOOSEProgram.AppWhile.html#BOOSEProgram_AppWhile_CheckParameters_
-  commentId: Overload:BOOSEProgram.AppWhile.CheckParameters
+- uid: BOOSEProgram.AppWhile.#ctor
+  name: AppWhile()
+  href: api/BOOSEProgram.AppWhile.html#BOOSEProgram_AppWhile__ctor
+  commentId: M:BOOSEProgram.AppWhile.#ctor
+  name.vb: New()
+  fullName: BOOSEProgram.AppWhile.AppWhile()
+  fullName.vb: BOOSEProgram.AppWhile.New()
+  nameWithType: AppWhile.AppWhile()
+  nameWithType.vb: AppWhile.New()
+- uid: BOOSEProgram.AppWhile.#ctor*
+  name: AppWhile
+  href: api/BOOSEProgram.AppWhile.html#BOOSEProgram_AppWhile__ctor_
+  commentId: Overload:BOOSEProgram.AppWhile.#ctor
   isSpec: "True"
-  fullName: BOOSEProgram.AppWhile.CheckParameters
-  nameWithType: AppWhile.CheckParameters
-- uid: BOOSEProgram.AppWhile.Compile
-  name: Compile()
-  href: api/BOOSEProgram.AppWhile.html#BOOSEProgram_AppWhile_Compile
-  commentId: M:BOOSEProgram.AppWhile.Compile
-  fullName: BOOSEProgram.AppWhile.Compile()
-  nameWithType: AppWhile.Compile()
-- uid: BOOSEProgram.AppWhile.Compile*
-  name: Compile
-  href: api/BOOSEProgram.AppWhile.html#BOOSEProgram_AppWhile_Compile_
-  commentId: Overload:BOOSEProgram.AppWhile.Compile
-  isSpec: "True"
-  fullName: BOOSEProgram.AppWhile.Compile
-  nameWithType: AppWhile.Compile
-- uid: BOOSEProgram.AppWhile.Execute
-  name: Execute()
-  href: api/BOOSEProgram.AppWhile.html#BOOSEProgram_AppWhile_Execute
-  commentId: M:BOOSEProgram.AppWhile.Execute
-  fullName: BOOSEProgram.AppWhile.Execute()
-  nameWithType: AppWhile.Execute()
-- uid: BOOSEProgram.AppWhile.Execute*
-  name: Execute
-  href: api/BOOSEProgram.AppWhile.html#BOOSEProgram_AppWhile_Execute_
-  commentId: Overload:BOOSEProgram.AppWhile.Execute
-  isSpec: "True"
-  fullName: BOOSEProgram.AppWhile.Execute
-  nameWithType: AppWhile.Execute
-- uid: BOOSEProgram.AppWhile.finalLineNumber
-  name: finalLineNumber
-  href: api/BOOSEProgram.AppWhile.html#BOOSEProgram_AppWhile_finalLineNumber
-  commentId: F:BOOSEProgram.AppWhile.finalLineNumber
-  fullName: BOOSEProgram.AppWhile.finalLineNumber
-  nameWithType: AppWhile.finalLineNumber
+  name.vb: New
+  fullName: BOOSEProgram.AppWhile.AppWhile
+  fullName.vb: BOOSEProgram.AppWhile.New
+  nameWithType: AppWhile.AppWhile
+  nameWithType.vb: AppWhile.New
 - uid: BOOSEProgram.AppWrite
   name: AppWrite
   href: api/BOOSEProgram.AppWrite.html
@@ -1580,6 +1563,51 @@ references:
   isSpec: "True"
   fullName: UnitTests.CanvasTest.unrestricted_MultLine_Test
   nameWithType: CanvasTest.unrestricted_MultLine_Test
+- uid: UnitTests.IfTest
+  name: IfTest
+  href: api/UnitTests.IfTest.html
+  commentId: T:UnitTests.IfTest
+  fullName: UnitTests.IfTest
+  nameWithType: IfTest
+- uid: UnitTests.IfTest.Clean
+  name: Clean()
+  href: api/UnitTests.IfTest.html#UnitTests_IfTest_Clean
+  commentId: M:UnitTests.IfTest.Clean
+  fullName: UnitTests.IfTest.Clean()
+  nameWithType: IfTest.Clean()
+- uid: UnitTests.IfTest.Clean*
+  name: Clean
+  href: api/UnitTests.IfTest.html#UnitTests_IfTest_Clean_
+  commentId: Overload:UnitTests.IfTest.Clean
+  isSpec: "True"
+  fullName: UnitTests.IfTest.Clean
+  nameWithType: IfTest.Clean
+- uid: UnitTests.IfTest.start
+  name: start()
+  href: api/UnitTests.IfTest.html#UnitTests_IfTest_start
+  commentId: M:UnitTests.IfTest.start
+  fullName: UnitTests.IfTest.start()
+  nameWithType: IfTest.start()
+- uid: UnitTests.IfTest.start*
+  name: start
+  href: api/UnitTests.IfTest.html#UnitTests_IfTest_start_
+  commentId: Overload:UnitTests.IfTest.start
+  isSpec: "True"
+  fullName: UnitTests.IfTest.start
+  nameWithType: IfTest.start
+- uid: UnitTests.IfTest.unrestricted_if_test
+  name: unrestricted_if_test()
+  href: api/UnitTests.IfTest.html#UnitTests_IfTest_unrestricted_if_test
+  commentId: M:UnitTests.IfTest.unrestricted_if_test
+  fullName: UnitTests.IfTest.unrestricted_if_test()
+  nameWithType: IfTest.unrestricted_if_test()
+- uid: UnitTests.IfTest.unrestricted_if_test*
+  name: unrestricted_if_test
+  href: api/UnitTests.IfTest.html#UnitTests_IfTest_unrestricted_if_test_
+  commentId: Overload:UnitTests.IfTest.unrestricted_if_test
+  isSpec: "True"
+  fullName: UnitTests.IfTest.unrestricted_if_test
+  nameWithType: IfTest.unrestricted_if_test
 - uid: UnitTests.IntTest
   name: IntTest
   href: api/UnitTests.IntTest.html
@@ -1644,3 +1672,48 @@ references:
   isSpec: "True"
   fullName: UnitTests.RealTest.start
   nameWithType: RealTest.start
+- uid: UnitTests.WhileTest
+  name: WhileTest
+  href: api/UnitTests.WhileTest.html
+  commentId: T:UnitTests.WhileTest
+  fullName: UnitTests.WhileTest
+  nameWithType: WhileTest
+- uid: UnitTests.WhileTest.Clean
+  name: Clean()
+  href: api/UnitTests.WhileTest.html#UnitTests_WhileTest_Clean
+  commentId: M:UnitTests.WhileTest.Clean
+  fullName: UnitTests.WhileTest.Clean()
+  nameWithType: WhileTest.Clean()
+- uid: UnitTests.WhileTest.Clean*
+  name: Clean
+  href: api/UnitTests.WhileTest.html#UnitTests_WhileTest_Clean_
+  commentId: Overload:UnitTests.WhileTest.Clean
+  isSpec: "True"
+  fullName: UnitTests.WhileTest.Clean
+  nameWithType: WhileTest.Clean
+- uid: UnitTests.WhileTest.Compound_Command_limit_test
+  name: Compound_Command_limit_test()
+  href: api/UnitTests.WhileTest.html#UnitTests_WhileTest_Compound_Command_limit_test
+  commentId: M:UnitTests.WhileTest.Compound_Command_limit_test
+  fullName: UnitTests.WhileTest.Compound_Command_limit_test()
+  nameWithType: WhileTest.Compound_Command_limit_test()
+- uid: UnitTests.WhileTest.Compound_Command_limit_test*
+  name: Compound_Command_limit_test
+  href: api/UnitTests.WhileTest.html#UnitTests_WhileTest_Compound_Command_limit_test_
+  commentId: Overload:UnitTests.WhileTest.Compound_Command_limit_test
+  isSpec: "True"
+  fullName: UnitTests.WhileTest.Compound_Command_limit_test
+  nameWithType: WhileTest.Compound_Command_limit_test
+- uid: UnitTests.WhileTest.start
+  name: start()
+  href: api/UnitTests.WhileTest.html#UnitTests_WhileTest_start
+  commentId: M:UnitTests.WhileTest.start
+  fullName: UnitTests.WhileTest.start()
+  nameWithType: WhileTest.start()
+- uid: UnitTests.WhileTest.start*
+  name: start
+  href: api/UnitTests.WhileTest.html#UnitTests_WhileTest_start_
+  commentId: Overload:UnitTests.WhileTest.start
+  isSpec: "True"
+  fullName: UnitTests.WhileTest.start
+  nameWithType: WhileTest.start

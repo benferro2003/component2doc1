@@ -89,7 +89,8 @@
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">Command</span></div>
     <div class="level2"><span class="xref">Evaluation</span></div>
-    <div class="level3"><span class="xref">AppBoolean</span></div>
+    <div class="level3"><span class="xref">Boolean</span></div>
+    <div class="level4"><span class="xref">AppBoolean</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -97,6 +98,15 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">Boolean.Compile()</span>
+    </div>
+    <div>
+      <span class="xref">Boolean.Execute()</span>
+    </div>
+    <div>
+      <span class="xref">Boolean.BoolValue</span>
+    </div>
     <div>
       <span class="xref">Evaluation.expression</span>
     </div>
@@ -108,12 +118,6 @@
     </div>
     <div>
       <span class="xref">Evaluation.value</span>
-    </div>
-    <div>
-      <span class="xref">Evaluation.Compile()</span>
-    </div>
-    <div>
-      <span class="xref">Evaluation.Execute()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.CheckParameters(string[])</a>
@@ -192,25 +196,7 @@
   <h6><strong>Assembly</strong>: BOOSEProgram.dll</h6>
   <h5 id="BOOSEProgram_AppBoolean_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppBoolean : Evaluation, ICommand</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/new/main/apiSpec/new?filename=BOOSEProgram_AppBoolean__ctor.md&amp;value=---%0Auid%3A%20BOOSEProgram.AppBoolean.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppBoolean.cs/#L23">View Source</a>
-  </span>
-  <a id="BOOSEProgram_AppBoolean__ctor_" data-uid="BOOSEProgram.AppBoolean.#ctor*"></a>
-  <h4 id="BOOSEProgram_AppBoolean__ctor" data-uid="BOOSEProgram.AppBoolean.#ctor">AppBoolean()</h4>
-  <div class="markdown level1 summary"><p>Constructor for AppBoolean class extends base</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AppBoolean()</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppBoolean : Boolean, ICommand</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
@@ -219,7 +205,7 @@
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/new/main/apiSpec/new?filename=BOOSEProgram_AppBoolean_Restrictions.md&amp;value=---%0Auid%3A%20BOOSEProgram.AppBoolean.Restrictions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppBoolean.cs/#L30">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppBoolean.cs/#L21">View Source</a>
   </span>
   <a id="BOOSEProgram_AppBoolean_Restrictions_" data-uid="BOOSEProgram.AppBoolean.Restrictions*"></a>
   <h4 id="BOOSEProgram_AppBoolean_Restrictions" data-uid="BOOSEProgram.AppBoolean.Restrictions">Restrictions()</h4>
@@ -228,8 +214,10 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Restrictions()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Restrictions()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Boolean.Restrictions()</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">BOOSE.ICommand</span>

@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class AppEnd | benferro documentation ">
     
-    <meta name="description" content="class for end command allowing end commands for while and if">
+    <meta name="description" content="class for end command allowing end commands: for while and if">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -82,7 +82,7 @@
 
   <h1 id="BOOSEProgram_AppEnd" data-uid="BOOSEProgram.AppEnd" class="text-break">Class AppEnd</h1>
   <div class="markdown level0 summary"><p>class for end command
-allowing end commands for while and if</p>
+allowing end commands: for while and if</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -92,8 +92,7 @@ allowing end commands for while and if</p>
     <div class="level2"><span class="xref">Evaluation</span></div>
     <div class="level3"><span class="xref">Boolean</span></div>
     <div class="level4"><span class="xref">ConditionalCommand</span></div>
-    <div class="level5"><span class="xref">CompoundCommand</span></div>
-    <div class="level6"><span class="xref">AppEnd</span></div>
+    <div class="level5"><span class="xref">AppEnd</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -102,25 +101,10 @@ allowing end commands for while and if</p>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">CompoundCommand.ReduceRestrictions()</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CompoundCommand.CheckParameters(string[])</a>
-    </div>
-    <div>
-      <span class="xref">CompoundCommand.CorrespondingCommand</span>
-    </div>
-    <div>
       <span class="xref">ConditionalCommand.endLineNumber</span>
     </div>
     <div>
-      <span class="xref">ConditionalCommand.EndLineNumber</span>
-    </div>
-    <div>
       <span class="xref">ConditionalCommand.Condition</span>
-    </div>
-    <div>
-      <span class="xref">ConditionalCommand.LineNumber</span>
     </div>
     <div>
       <span class="xref">ConditionalCommand.CondType</span>
@@ -145,6 +129,9 @@ allowing end commands for while and if</p>
     </div>
     <div>
       <span class="xref">Evaluation.value</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.CheckParameters(string[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.ProcessExpression(string)</a>
@@ -220,26 +207,101 @@ allowing end commands for while and if</p>
   <h6><strong>Assembly</strong>: BOOSEProgram.dll</h6>
   <h5 id="BOOSEProgram_AppEnd_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppEnd : CompoundCommand, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppEnd : ConditionalCommand, ICommand</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="fields">Fields
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/new/main/apiSpec/new?filename=BOOSEProgram_AppEnd__ctor.md&amp;value=---%0Auid%3A%20BOOSEProgram.AppEnd.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/new/main/apiSpec/new?filename=BOOSEProgram_AppEnd_EndLineNumber.md&amp;value=---%0Auid%3A%20BOOSEProgram.AppEnd.EndLineNumber%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppEnd.cs/#L16">View Source</a>
+  </span>
+  <h4 id="BOOSEProgram_AppEnd_EndLineNumber" data-uid="BOOSEProgram.AppEnd.EndLineNumber">EndLineNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int EndLineNumber</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/new/main/apiSpec/new?filename=BOOSEProgram_AppEnd_LineNumber.md&amp;value=---%0Auid%3A%20BOOSEProgram.AppEnd.LineNumber%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppEnd.cs/#L15">View Source</a>
   </span>
-  <a id="BOOSEProgram_AppEnd__ctor_" data-uid="BOOSEProgram.AppEnd.#ctor*"></a>
-  <h4 id="BOOSEProgram_AppEnd__ctor" data-uid="BOOSEProgram.AppEnd.#ctor">AppEnd()</h4>
-  <div class="markdown level1 summary"><p>AppEnd constructor</p>
+  <h4 id="BOOSEProgram_AppEnd_LineNumber" data-uid="BOOSEProgram.AppEnd.LineNumber">LineNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LineNumber</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/new/main/apiSpec/new?filename=BOOSEProgram_AppEnd_CorrespondingCommand.md&amp;value=---%0Auid%3A%20BOOSEProgram.AppEnd.CorrespondingCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppEnd.cs/#L21">View Source</a>
+  </span>
+  <a id="BOOSEProgram_AppEnd_CorrespondingCommand_" data-uid="BOOSEProgram.AppEnd.CorrespondingCommand*"></a>
+  <h4 id="BOOSEProgram_AppEnd_CorrespondingCommand" data-uid="BOOSEProgram.AppEnd.CorrespondingCommand">CorrespondingCommand</h4>
+  <div class="markdown level1 summary"><p>Set and Get for CorrespondingCommand value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AppEnd()</code></pre>
+    <pre><code class="lang-csharp hljs">public ConditionalCommand CorrespondingCommand { get; set; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConditionalCommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
@@ -247,7 +309,7 @@ allowing end commands for while and if</p>
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/new/main/apiSpec/new?filename=BOOSEProgram_AppEnd_Compile.md&amp;value=---%0Auid%3A%20BOOSEProgram.AppEnd.Compile%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppEnd.cs/#L26">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppEnd.cs/#L31">View Source</a>
   </span>
   <a id="BOOSEProgram_AppEnd_Compile_" data-uid="BOOSEProgram.AppEnd.Compile*"></a>
   <h4 id="BOOSEProgram_AppEnd_Compile" data-uid="BOOSEProgram.AppEnd.Compile">Compile()</h4>
@@ -260,18 +322,18 @@ pop command from stack</p>
     <pre><code class="lang-csharp hljs">public override void Compile()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">BOOSE.CompoundCommand.Compile()</span></div>
+  <div><span class="xref">BOOSE.ConditionalCommand.Compile()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/new/main/apiSpec/new?filename=BOOSEProgram_AppEnd_Execute.md&amp;value=---%0Auid%3A%20BOOSEProgram.AppEnd.Execute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppEnd.cs/#L36">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppEnd.cs/#L44">View Source</a>
   </span>
   <a id="BOOSEProgram_AppEnd_Execute_" data-uid="BOOSEProgram.AppEnd.Execute*"></a>
   <h4 id="BOOSEProgram_AppEnd_Execute" data-uid="BOOSEProgram.AppEnd.Execute">Execute()</h4>
   <div class="markdown level1 summary"><p>execute method from original class to be overwritten
-Set PC to corresponding command line number</p>
+Set PC to corresponding command line number - 1</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -296,7 +358,7 @@ Set PC to corresponding command line number</p>
                     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/new/main/apiSpec/new?filename=BOOSEProgram_AppEnd.md&amp;value=---%0Auid%3A%20BOOSEProgram.AppEnd%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppEnd.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppEnd.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

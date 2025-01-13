@@ -91,7 +91,7 @@
     <div class="level2"><span class="xref">Evaluation</span></div>
     <div class="level3"><span class="xref">Boolean</span></div>
     <div class="level4"><span class="xref">ConditionalCommand</span></div>
-    <div class="level5"><span class="xref">CompoundCommand</span></div>
+    <div class="level5"><span class="xref">For</span></div>
     <div class="level6"><span class="xref">AppFor</span></div>
   </div>
   <div class="implements">
@@ -101,13 +101,16 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">CompoundCommand.ReduceRestrictions()</span>
+      <span class="xref">For.LoopControlV</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CompoundCommand.CheckParameters(string[])</a>
+      <span class="xref">For.From</span>
     </div>
     <div>
-      <span class="xref">CompoundCommand.CorrespondingCommand</span>
+      <span class="xref">For.To</span>
+    </div>
+    <div>
+      <span class="xref">For.Step</span>
     </div>
     <div>
       <span class="xref">ConditionalCommand.endLineNumber</span>
@@ -144,6 +147,9 @@
     </div>
     <div>
       <span class="xref">Evaluation.value</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.CheckParameters(string[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.ProcessExpression(string)</a>
@@ -219,7 +225,7 @@
   <h6><strong>Assembly</strong>: BOOSEProgram.dll</h6>
   <h5 id="BOOSEProgram_AppFor_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppFor : CompoundCommand, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppFor : For, ICommand</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -228,11 +234,11 @@
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/new/main/apiSpec/new?filename=BOOSEProgram_AppFor__ctor.md&amp;value=---%0Auid%3A%20BOOSEProgram.AppFor.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppFor.cs/#L18">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppFor.cs/#L16">View Source</a>
   </span>
   <a id="BOOSEProgram_AppFor__ctor_" data-uid="BOOSEProgram.AppFor.#ctor*"></a>
   <h4 id="BOOSEProgram_AppFor__ctor" data-uid="BOOSEProgram.AppFor.#ctor">AppFor()</h4>
-  <div class="markdown level1 summary"><p>constructor for App For class</p>
+  <div class="markdown level1 summary"><p>constructor for App For class calls base constructor</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -246,12 +252,11 @@
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/new/main/apiSpec/new?filename=BOOSEProgram_AppFor_Compile.md&amp;value=---%0Auid%3A%20BOOSEProgram.AppFor.Compile%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppFor.cs/#L33">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppFor.cs/#L24">View Source</a>
   </span>
   <a id="BOOSEProgram_AppFor_Compile_" data-uid="BOOSEProgram.AppFor.Compile*"></a>
   <h4 id="BOOSEProgram_AppFor_Compile" data-uid="BOOSEProgram.AppFor.Compile">Compile()</h4>
-  <div class="markdown level1 summary"><p>Compile method from original class to be overwritten
-error handling for compilation</p>
+  <div class="markdown level1 summary"><p>override compile method called from base class</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -259,17 +264,17 @@ error handling for compilation</p>
     <pre><code class="lang-csharp hljs">public override void Compile()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">BOOSE.CompoundCommand.Compile()</span></div>
+  <div><span class="xref">BOOSE.For.Compile()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/new/main/apiSpec/new?filename=BOOSEProgram_AppFor_Execute.md&amp;value=---%0Auid%3A%20BOOSEProgram.AppFor.Execute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppFor.cs/#L49">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-benferro2003/blob/main/ASE/AppFor.cs/#L32">View Source</a>
   </span>
   <a id="BOOSEProgram_AppFor_Execute_" data-uid="BOOSEProgram.AppFor.Execute*"></a>
   <h4 id="BOOSEProgram_AppFor_Execute" data-uid="BOOSEProgram.AppFor.Execute">Execute()</h4>
-  <div class="markdown level1 summary"><p>Execute method from original class to be overwritten with additional</p>
+  <div class="markdown level1 summary"><p>override execute method called from base class</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -277,7 +282,7 @@ error handling for compilation</p>
     <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">BOOSE.ConditionalCommand.Execute()</span></div>
+  <div><span class="xref">BOOSE.For.Execute()</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">BOOSE.ICommand</span>
